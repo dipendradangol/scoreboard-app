@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Scoreboard</h1>
+        <h1 className="titleName animated fadeInLeft">Scoreboard</h1>
         {players.map(player => <Team name={player} /> )}
       </div>
     );
